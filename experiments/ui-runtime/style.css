@@ -1,0 +1,110 @@
+@import "./theme/tokens.css";
+:root {
+  color-scheme: dark;
+  font:
+    14px/1.5 system-ui,
+    sans-serif;
+  background: var(--mods-bg);
+  color: var(--mods-text);
+}
+body {
+  margin: 0;
+}
+main {
+  padding: 20px;
+  max-width: 760px;
+  margin: auto;
+}
+h1 {
+  font-size: 22px;
+  margin: 0;
+}
+header p {
+  color: var(--mods-text-muted);
+}
+form {
+  padding: 16px;
+  border: 1px solid var(--mods-border);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+label {
+  display: block;
+  margin: 8px 0;
+}
+input,
+button {
+  font: inherit;
+  accent-color: var(--mods-accent);
+}
+input:not([type="checkbox"]) {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  background: var(--mods-bg-recessed);
+  color: inherit;
+  border: 1px solid var(--mods-border);
+  border-radius: 6px;
+}
+button {
+  background: var(--mods-surface);
+  color: inherit;
+  border: 1px solid var(--mods-border);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+}
+output {
+  display: block;
+  margin-top: 8px;
+}
+#validation {
+  color: var(--mods-error);
+  min-height: 21px;
+}
+#commands {
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding: 10px;
+  border-bottom: 1px solid var(--mods-border);
+}
+a {
+  color: var(--mods-accent);
+}
+:focus-visible {
+  outline: 2px solid var(--mods-accent);
+  outline-offset: 2px;
+}
+dialog,
+.dialog {
+  background: var(--mods-surface);
+  color: inherit;
+  border: 1px solid var(--mods-border);
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 360px;
+}
+dialog::backdrop,
+.overlay {
+  background: #0009;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+}
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+dialog a,
+.dialog a {
+  display: block;
+  margin-bottom: 16px;
+}

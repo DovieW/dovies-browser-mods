@@ -1,0 +1,188 @@
+[
+  {
+    "kind": "before",
+    "run": 1,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:28.301Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "3bf1b0a",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 399.22195000000005,
+      "popupMs": {
+        "first": 202.62595299999998,
+        "warmP50": 77.88264600000002,
+        "warmP95": 106.57300599999985
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 1.4764279999999417,
+          "p95": 3.839426000000003
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 2.4092610000002423,
+          "p95": 3.317746999999599
+        }
+      }
+    }
+  },
+  {
+    "kind": "after",
+    "run": 1,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:31.923Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "architecture-refactor",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 449.779862,
+      "popupMs": {
+        "first": 153.38835500000005,
+        "warmP50": 91.89441100000022,
+        "warmP95": 125.60360500000024
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 0.968054999999822,
+          "p95": 3.6699180000000524
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 1.7949819999998908,
+          "p95": 2.4404200000003584
+        }
+      }
+    }
+  },
+  {
+    "kind": "before",
+    "run": 2,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:35.350Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "3bf1b0a",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 418.89602199999996,
+      "popupMs": {
+        "first": 175.784714,
+        "warmP50": 87.7909639999998,
+        "warmP95": 113.92326300000013
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 0.8660429999999906,
+          "p95": 2.3784379999997327
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 1.7455850000001192,
+          "p95": 2.2898290000002817
+        }
+      }
+    }
+  },
+  {
+    "kind": "after",
+    "run": 2,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:38.838Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "architecture-refactor",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 384.30081,
+      "popupMs": {
+        "first": 128.473612,
+        "warmP50": 87.6028669999996,
+        "warmP95": 112.2692750000001
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 1.6076829999997244,
+          "p95": 3.0646190000002207
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 2.4580700000001343,
+          "p95": 3.2135520000001634
+        }
+      }
+    }
+  },
+  {
+    "kind": "before",
+    "run": 3,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:42.482Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "3bf1b0a",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 491.27036400000003,
+      "popupMs": {
+        "first": 182.85159399999986,
+        "warmP50": 88.95403099999999,
+        "warmP95": 110.47881699999994
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 1.5140299999998206,
+          "p95": 5.831963999999971
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 2.1220180000000255,
+          "p95": 3.797143999999662
+        }
+      }
+    }
+  },
+  {
+    "kind": "after",
+    "run": 3,
+    "report": {
+      "measuredAt": "2026-11-16T12:39:46.029Z",
+      "node": "v26.13.1",
+      "browser": "153.0.8010.12",
+      "platform": "linux",
+      "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+      "extension": "architecture-refactor",
+      "samples": 15,
+      "browserLaunchAndWorkerMs": 470.111019,
+      "popupMs": {
+        "first": 191.23968899999988,
+        "warmP50": 80.62213199999997,
+        "warmP95": 93.89844500000004
+      },
+      "mockCopyLinksMs": {
+        "500": {
+          "samples": 25,
+          "p50": 1.6458910000001197,
+          "p95": 3.2966710000000603
+        },
+        "1000": {
+          "samples": 25,
+          "p50": 2.0876470000002882,
+          "p95": 3.6906159999998636
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,5161 @@
+{
+  "completed": true,
+  "measuredAt": "2026-11-16T22:16:58.866Z",
+  "node": "v26.13.1",
+  "browser": "153.0.8010.12",
+  "platform": "linux",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+  "rounds": 3,
+  "viewport": {
+    "width": 440,
+    "height": 900
+  },
+  "artifacts": {
+    "catalogSize": 23,
+    "esbuildVersion": "0.28.2",
+    "versions": {
+      "react": {
+        "version": "19.3.1",
+        "license": "MIT"
+      },
+      "react-dom": {
+        "version": "19.3.1",
+        "license": "MIT"
+      },
+      "preact": {
+        "version": "11.2.0",
+        "license": "MIT"
+      },
+      "@tanstack/redact": {
+        "version": "0.3.1",
+        "license": "MIT"
+      },
+      "@radix-ui/react-dialog": {
+        "version": "1.3.1",
+        "license": "MIT"
+      }
+    },
+    "bundles": {
+      "native": {
+        "minifiedBytes": 6071,
+        "gzipBytes": 2594,
+        "inputs": [
+          "instrumentation.ts",
+          "dialog-focus.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "native.ts"
+        ]
+      },
+      "react": {
+        "minifiedBytes": 229892,
+        "gzipBytes": 71670,
+        "inputs": [
+          "node_modules/react/cjs/react.production.js",
+          "node_modules/react/index.js",
+          "node_modules/scheduler/cjs/scheduler.production.js",
+          "node_modules/scheduler/index.js",
+          "node_modules/react-dom/cjs/react-dom.production.js",
+          "node_modules/react-dom/index.js",
+          "node_modules/react-dom/cjs/react-dom-client.production.js",
+          "node_modules/react-dom/client.js",
+          "dialog-focus.ts",
+          "node_modules/react/cjs/react-jsx-runtime.production.js",
+          "node_modules/react/jsx-runtime.js",
+          "dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      },
+      "preact": {
+        "minifiedBytes": 32345,
+        "gzipBytes": 12826,
+        "inputs": [
+          "node_modules/preact/dist/preact.mjs",
+          "node_modules/preact/hooks/dist/hooks.mjs",
+          "node_modules/preact/compat/dist/compat.mjs",
+          "node_modules/preact/compat/client.js",
+          "dialog-focus.ts",
+          "node_modules/preact/jsx-runtime/dist/jsxRuntime.mjs",
+          "dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      },
+      "redact": {
+        "minifiedBytes": 69454,
+        "gzipBytes": 27196,
+        "inputs": [
+          "node_modules/@tanstack/redact/dist/core/functions.js",
+          "node_modules/@tanstack/redact/dist/react/shared-internals.js",
+          "node_modules/@tanstack/redact/dist/react/hooks.js",
+          "node_modules/@tanstack/redact/dist/core/types.js",
+          "node_modules/@tanstack/redact/dist/core/internal.js",
+          "node_modules/@tanstack/redact/dist/core/index.js",
+          "node_modules/@tanstack/redact/dist/core/devtools.js",
+          "node_modules/@tanstack/redact/dist/react/element.js",
+          "node_modules/@tanstack/redact/dist/react/children.js",
+          "node_modules/@tanstack/redact/dist/react/suspense.js",
+          "node_modules/@tanstack/redact/dist/react/act.js",
+          "node_modules/@tanstack/redact/dist/react/class.js",
+          "node_modules/@tanstack/redact/dist/react/view-transition.js",
+          "node_modules/@tanstack/redact/dist/react/context.js",
+          "node_modules/@tanstack/redact/dist/react/thenable.js",
+          "node_modules/@tanstack/redact/dist/react/memo.js",
+          "node_modules/@tanstack/redact/dist/react/activity.js",
+          "node_modules/@tanstack/redact/dist/react/portal.js",
+          "node_modules/@tanstack/redact/dist/react/index.js",
+          "node_modules/@tanstack/redact/dist/dom/root-internal.js",
+          "node_modules/@tanstack/redact/dist/dom/tree.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/resources.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/visual.js",
+          "node_modules/@tanstack/redact/dist/dom/walk.js",
+          "node_modules/@tanstack/redact/dist/dom/synthetic-event.js",
+          "node_modules/@tanstack/redact/dist/core/unitless-style.js",
+          "node_modules/@tanstack/redact/dist/dom/form-controls.js",
+          "node_modules/@tanstack/redact/dist/react/action-scope.js",
+          "node_modules/@tanstack/redact/dist/react/form-state.js",
+          "node_modules/@tanstack/redact/dist/dom/form-actions.js",
+          "node_modules/@tanstack/redact/dist/core/attributes.js",
+          "node_modules/@tanstack/redact/dist/dom/dom.js",
+          "node_modules/@tanstack/redact/dist/dom/commit.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/index.js",
+          "node_modules/@tanstack/redact/dist/dom/event-replay.js",
+          "node_modules/@tanstack/redact/dist/dom/document-metadata.js",
+          "node_modules/@tanstack/redact/dist/dom/error-info.js",
+          "node_modules/@tanstack/redact/dist/dom/react-ids.js",
+          "node_modules/@tanstack/redact/dist/dom/features/hydration/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/hydration/index.js",
+          "node_modules/@tanstack/redact/dist/core/browser.js",
+          "node_modules/@tanstack/redact/dist/dom/devtools-effects.js",
+          "node_modules/@tanstack/redact/dist/dom/devtools.js",
+          "node_modules/@tanstack/redact/dist/dom/refresh.js",
+          "node_modules/@tanstack/redact/dist/dom/transitions.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-runtime/index.js",
+          "node_modules/@tanstack/redact/dist/dom/dispatcher.js",
+          "node_modules/@tanstack/redact/dist/core/resource-hints.js",
+          "node_modules/@tanstack/redact/dist/dom/resource-store.js",
+          "node_modules/@tanstack/redact/dist/dom/resources.js",
+          "node_modules/@tanstack/redact/dist/dom/fragment-instance.js",
+          "node_modules/@tanstack/redact/dist/dom/features/fragment-refs/index.js",
+          "node_modules/@tanstack/redact/dist/dom/retained-effects.js",
+          "node_modules/@tanstack/redact/dist/dom/reconcile.js",
+          "node_modules/@tanstack/redact/dist/dom/root.js",
+          "node_modules/@tanstack/redact/dist/dom/features/context/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/context/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/forward-ref/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/forward-ref/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/memo/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/memo/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/lazy/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/lazy/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-hydration/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-hydration/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/portal/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/portal/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/activity/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/activity/index.js",
+          "node_modules/@tanstack/redact/dist/core/class-props.js",
+          "node_modules/@tanstack/redact/dist/dom/features/class/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/class/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/index.js",
+          "node_modules/@tanstack/redact/dist/dom/client.js",
+          "dialog-focus.ts",
+          "node_modules/@tanstack/redact/dist/react/jsx-runtime.js",
+          "dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      },
+      "react-radix": {
+        "minifiedBytes": 270611,
+        "gzipBytes": 85081,
+        "inputs": [
+          "node_modules/react/cjs/react.production.js",
+          "node_modules/react/index.js",
+          "node_modules/scheduler/cjs/scheduler.production.js",
+          "node_modules/scheduler/index.js",
+          "node_modules/react-dom/cjs/react-dom.production.js",
+          "node_modules/react-dom/index.js",
+          "node_modules/react-dom/cjs/react-dom-client.production.js",
+          "node_modules/react-dom/client.js",
+          "node_modules/@radix-ui/primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-compose-refs/dist/index.mjs",
+          "node_modules/react/cjs/react-jsx-runtime.production.js",
+          "node_modules/react/jsx-runtime.js",
+          "node_modules/@radix-ui/react-context/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs",
+          "node_modules/@radix-ui/react-id/dist/index.mjs",
+          "node_modules/@radix-ui/primitive/dist/internal/is-development.false.mjs",
+          "node_modules/@radix-ui/react-use-effect-event/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs",
+          "node_modules/@radix-ui/react-slot/dist/index.mjs",
+          "node_modules/@radix-ui/react-primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs",
+          "node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-scope/dist/index.mjs",
+          "node_modules/@radix-ui/react-portal/dist/index.mjs",
+          "node_modules/@radix-ui/react-presence/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-guards/dist/index.mjs",
+          "node_modules/tslib/tslib.es6.mjs",
+          "node_modules/react-remove-scroll-bar/dist/es2015/constants.js",
+          "node_modules/use-callback-ref/dist/es2015/assignRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useRef.js",
+          "node_modules/use-callback-ref/dist/es2015/createRef.js",
+          "node_modules/use-callback-ref/dist/es2015/mergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useMergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useTransformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/transformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/refToCallback.js",
+          "node_modules/use-callback-ref/dist/es2015/index.js",
+          "node_modules/detect-node-es/esm/browser.js",
+          "node_modules/use-sidecar/dist/es2015/env.js",
+          "node_modules/use-sidecar/dist/es2015/hook.js",
+          "node_modules/use-sidecar/dist/es2015/hoc.js",
+          "node_modules/use-sidecar/dist/es2015/config.js",
+          "node_modules/use-sidecar/dist/es2015/medium.js",
+          "node_modules/use-sidecar/dist/es2015/renderProp.js",
+          "node_modules/use-sidecar/dist/es2015/exports.js",
+          "node_modules/use-sidecar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/medium.js",
+          "node_modules/react-remove-scroll/dist/es2015/UI.js",
+          "node_modules/get-nonce/dist/es2015/index.js",
+          "node_modules/react-style-singleton/dist/es2015/singleton.js",
+          "node_modules/react-style-singleton/dist/es2015/hook.js",
+          "node_modules/react-style-singleton/dist/es2015/component.js",
+          "node_modules/react-style-singleton/dist/es2015/index.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/utils.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/component.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js",
+          "node_modules/react-remove-scroll/dist/es2015/handleScroll.js",
+          "node_modules/react-remove-scroll/dist/es2015/SideEffect.js",
+          "node_modules/react-remove-scroll/dist/es2015/sidecar.js",
+          "node_modules/react-remove-scroll/dist/es2015/Combination.js",
+          "node_modules/react-remove-scroll/dist/es2015/index.js",
+          "node_modules/aria-hidden/dist/es2015/index.js",
+          "node_modules/@radix-ui/react-dialog/dist/index.mjs",
+          "radix-dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      },
+      "preact-radix": {
+        "minifiedBytes": 70726,
+        "gzipBytes": 25658,
+        "inputs": [
+          "node_modules/preact/dist/preact.mjs",
+          "node_modules/preact/hooks/dist/hooks.mjs",
+          "node_modules/preact/compat/dist/compat.mjs",
+          "node_modules/preact/compat/client.js",
+          "node_modules/@radix-ui/primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-compose-refs/dist/index.mjs",
+          "node_modules/preact/jsx-runtime/dist/jsxRuntime.mjs",
+          "node_modules/@radix-ui/react-context/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs",
+          "node_modules/@radix-ui/react-id/dist/index.mjs",
+          "node_modules/@radix-ui/primitive/dist/internal/is-development.false.mjs",
+          "node_modules/@radix-ui/react-use-effect-event/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs",
+          "node_modules/@radix-ui/react-slot/dist/index.mjs",
+          "node_modules/@radix-ui/react-primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs",
+          "node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-scope/dist/index.mjs",
+          "node_modules/@radix-ui/react-portal/dist/index.mjs",
+          "node_modules/@radix-ui/react-presence/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-guards/dist/index.mjs",
+          "node_modules/tslib/tslib.es6.mjs",
+          "node_modules/react-remove-scroll-bar/dist/es2015/constants.js",
+          "node_modules/use-callback-ref/dist/es2015/assignRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useRef.js",
+          "node_modules/use-callback-ref/dist/es2015/createRef.js",
+          "node_modules/use-callback-ref/dist/es2015/mergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useMergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useTransformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/transformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/refToCallback.js",
+          "node_modules/use-callback-ref/dist/es2015/index.js",
+          "node_modules/detect-node-es/esm/browser.js",
+          "node_modules/use-sidecar/dist/es2015/env.js",
+          "node_modules/use-sidecar/dist/es2015/hook.js",
+          "node_modules/use-sidecar/dist/es2015/hoc.js",
+          "node_modules/use-sidecar/dist/es2015/config.js",
+          "node_modules/use-sidecar/dist/es2015/medium.js",
+          "node_modules/use-sidecar/dist/es2015/renderProp.js",
+          "node_modules/use-sidecar/dist/es2015/exports.js",
+          "node_modules/use-sidecar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/medium.js",
+          "node_modules/react-remove-scroll/dist/es2015/UI.js",
+          "node_modules/get-nonce/dist/es2015/index.js",
+          "node_modules/react-style-singleton/dist/es2015/singleton.js",
+          "node_modules/react-style-singleton/dist/es2015/hook.js",
+          "node_modules/react-style-singleton/dist/es2015/component.js",
+          "node_modules/react-style-singleton/dist/es2015/index.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/utils.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/component.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js",
+          "node_modules/react-remove-scroll/dist/es2015/handleScroll.js",
+          "node_modules/react-remove-scroll/dist/es2015/SideEffect.js",
+          "node_modules/react-remove-scroll/dist/es2015/sidecar.js",
+          "node_modules/react-remove-scroll/dist/es2015/Combination.js",
+          "node_modules/react-remove-scroll/dist/es2015/index.js",
+          "node_modules/aria-hidden/dist/es2015/index.js",
+          "node_modules/@radix-ui/react-dialog/dist/index.mjs",
+          "radix-dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      },
+      "redact-radix": {
+        "minifiedBytes": 113818,
+        "gzipBytes": 42031,
+        "inputs": [
+          "node_modules/@tanstack/redact/dist/core/functions.js",
+          "node_modules/@tanstack/redact/dist/react/shared-internals.js",
+          "node_modules/@tanstack/redact/dist/react/hooks.js",
+          "node_modules/@tanstack/redact/dist/core/types.js",
+          "node_modules/@tanstack/redact/dist/core/internal.js",
+          "node_modules/@tanstack/redact/dist/core/index.js",
+          "node_modules/@tanstack/redact/dist/core/devtools.js",
+          "node_modules/@tanstack/redact/dist/react/element.js",
+          "node_modules/@tanstack/redact/dist/react/children.js",
+          "node_modules/@tanstack/redact/dist/react/suspense.js",
+          "node_modules/@tanstack/redact/dist/react/act.js",
+          "node_modules/@tanstack/redact/dist/react/class.js",
+          "node_modules/@tanstack/redact/dist/react/view-transition.js",
+          "node_modules/@tanstack/redact/dist/react/context.js",
+          "node_modules/@tanstack/redact/dist/react/thenable.js",
+          "node_modules/@tanstack/redact/dist/react/memo.js",
+          "node_modules/@tanstack/redact/dist/react/activity.js",
+          "node_modules/@tanstack/redact/dist/react/portal.js",
+          "node_modules/@tanstack/redact/dist/react/index.js",
+          "node_modules/@tanstack/redact/dist/dom/root-internal.js",
+          "node_modules/@tanstack/redact/dist/dom/tree.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/resources.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/visual.js",
+          "node_modules/@tanstack/redact/dist/dom/walk.js",
+          "node_modules/@tanstack/redact/dist/dom/synthetic-event.js",
+          "node_modules/@tanstack/redact/dist/core/unitless-style.js",
+          "node_modules/@tanstack/redact/dist/dom/form-controls.js",
+          "node_modules/@tanstack/redact/dist/react/action-scope.js",
+          "node_modules/@tanstack/redact/dist/react/form-state.js",
+          "node_modules/@tanstack/redact/dist/dom/form-actions.js",
+          "node_modules/@tanstack/redact/dist/core/attributes.js",
+          "node_modules/@tanstack/redact/dist/dom/dom.js",
+          "node_modules/@tanstack/redact/dist/dom/commit.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/view-transition/index.js",
+          "node_modules/@tanstack/redact/dist/dom/event-replay.js",
+          "node_modules/@tanstack/redact/dist/dom/document-metadata.js",
+          "node_modules/@tanstack/redact/dist/dom/error-info.js",
+          "node_modules/@tanstack/redact/dist/dom/react-ids.js",
+          "node_modules/@tanstack/redact/dist/dom/features/hydration/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/hydration/index.js",
+          "node_modules/@tanstack/redact/dist/core/browser.js",
+          "node_modules/@tanstack/redact/dist/dom/devtools-effects.js",
+          "node_modules/@tanstack/redact/dist/dom/devtools.js",
+          "node_modules/@tanstack/redact/dist/dom/refresh.js",
+          "node_modules/@tanstack/redact/dist/dom/transitions.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-runtime/index.js",
+          "node_modules/@tanstack/redact/dist/dom/dispatcher.js",
+          "node_modules/@tanstack/redact/dist/core/resource-hints.js",
+          "node_modules/@tanstack/redact/dist/dom/resource-store.js",
+          "node_modules/@tanstack/redact/dist/dom/resources.js",
+          "node_modules/@tanstack/redact/dist/dom/fragment-instance.js",
+          "node_modules/@tanstack/redact/dist/dom/features/fragment-refs/index.js",
+          "node_modules/@tanstack/redact/dist/dom/retained-effects.js",
+          "node_modules/@tanstack/redact/dist/dom/reconcile.js",
+          "node_modules/@tanstack/redact/dist/dom/root.js",
+          "node_modules/@tanstack/redact/dist/dom/features/context/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/context/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/forward-ref/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/forward-ref/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/memo/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/memo/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/lazy/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/lazy/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-hydration/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense-hydration/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/suspense/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/portal/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/portal/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/activity/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/activity/index.js",
+          "node_modules/@tanstack/redact/dist/core/class-props.js",
+          "node_modules/@tanstack/redact/dist/dom/features/class/full.js",
+          "node_modules/@tanstack/redact/dist/dom/features/class/index.js",
+          "node_modules/@tanstack/redact/dist/dom/features/index.js",
+          "node_modules/@tanstack/redact/dist/dom/client.js",
+          "node_modules/@radix-ui/primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-compose-refs/dist/index.mjs",
+          "node_modules/@tanstack/redact/dist/react/jsx-runtime.js",
+          "node_modules/@radix-ui/react-context/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs",
+          "node_modules/@radix-ui/react-id/dist/index.mjs",
+          "node_modules/@radix-ui/primitive/dist/internal/is-development.false.mjs",
+          "node_modules/@radix-ui/react-use-effect-event/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs",
+          "node_modules/@tanstack/redact/dist/dom/portal.js",
+          "node_modules/@tanstack/redact/dist/dom/resource-hints.js",
+          "node_modules/@tanstack/redact/dist/dom/index.js",
+          "node_modules/@radix-ui/react-slot/dist/index.mjs",
+          "node_modules/@radix-ui/react-primitive/dist/index.mjs",
+          "node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs",
+          "node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-scope/dist/index.mjs",
+          "node_modules/@radix-ui/react-portal/dist/index.mjs",
+          "node_modules/@radix-ui/react-presence/dist/index.mjs",
+          "node_modules/@radix-ui/react-focus-guards/dist/index.mjs",
+          "node_modules/tslib/tslib.es6.mjs",
+          "node_modules/react-remove-scroll-bar/dist/es2015/constants.js",
+          "node_modules/use-callback-ref/dist/es2015/assignRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useRef.js",
+          "node_modules/use-callback-ref/dist/es2015/createRef.js",
+          "node_modules/use-callback-ref/dist/es2015/mergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useMergeRef.js",
+          "node_modules/use-callback-ref/dist/es2015/useTransformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/transformRef.js",
+          "node_modules/use-callback-ref/dist/es2015/refToCallback.js",
+          "node_modules/use-callback-ref/dist/es2015/index.js",
+          "node_modules/detect-node-es/esm/browser.js",
+          "node_modules/use-sidecar/dist/es2015/env.js",
+          "node_modules/use-sidecar/dist/es2015/hook.js",
+          "node_modules/use-sidecar/dist/es2015/hoc.js",
+          "node_modules/use-sidecar/dist/es2015/config.js",
+          "node_modules/use-sidecar/dist/es2015/medium.js",
+          "node_modules/use-sidecar/dist/es2015/renderProp.js",
+          "node_modules/use-sidecar/dist/es2015/exports.js",
+          "node_modules/use-sidecar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/medium.js",
+          "node_modules/react-remove-scroll/dist/es2015/UI.js",
+          "node_modules/get-nonce/dist/es2015/index.js",
+          "node_modules/react-style-singleton/dist/es2015/singleton.js",
+          "node_modules/react-style-singleton/dist/es2015/hook.js",
+          "node_modules/react-style-singleton/dist/es2015/component.js",
+          "node_modules/react-style-singleton/dist/es2015/index.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/utils.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/component.js",
+          "node_modules/react-remove-scroll-bar/dist/es2015/index.js",
+          "node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js",
+          "node_modules/react-remove-scroll/dist/es2015/handleScroll.js",
+          "node_modules/react-remove-scroll/dist/es2015/SideEffect.js",
+          "node_modules/react-remove-scroll/dist/es2015/sidecar.js",
+          "node_modules/react-remove-scroll/dist/es2015/Combination.js",
+          "node_modules/react-remove-scroll/dist/es2015/index.js",
+          "node_modules/aria-hidden/dist/es2015/index.js",
+          "node_modules/@radix-ui/react-dialog/dist/index.mjs",
+          "radix-dialog.tsx",
+          "instrumentation.ts",
+          "../../src/core/actions/catalog.ts",
+          "model.ts",
+          "component.tsx"
+        ]
+      }
+    }
+  },
+  "runs": [
+    {
+      "variant": "native",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 1528.9000000059605,
+        "warm": {
+          "samples": 7,
+          "p50": 73.5,
+          "p95": 82.09999999403954
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.19999998807907104,
+        "p95": 0.30000001192092896
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.599999994039536,
+        "p95": 26.100000023841858
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2164344,
+          "documents": 1,
+          "nodes": 117,
+          "jsEventListeners": 36
+        },
+        "before": {
+          "usedHeapBytes": 2161224,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "after": {
+          "usedHeapBytes": 2260520,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "retainedDeltaBytes": 99296,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          1528.9000000059605, 70.40000000596046, 79.2999999821186, 73.5,
+          68.40000000596046, 81.60000002384186, 62.5, 82.09999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 16.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 14.899999976158142
+          },
+          {
+            "query": "",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 16.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.10000002384185791,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "group",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.10000002384185791,
+            "twoFramesMs": 26.100000023841858
+          },
+          {
+            "query": "",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 23.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 22.799999982118607
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 21.200000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 26.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 23.19999998807907
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 178.59999999403954,
+        "warm": {
+          "samples": 7,
+          "p50": 78.90000000596046,
+          "p95": 89.19999998807907
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.7000000178813934,
+        "p95": 1.0999999940395355
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.900000005960464,
+        "p95": 26.30000001192093
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 3224248,
+          "documents": 1,
+          "nodes": 228,
+          "jsEventListeners": 193
+        },
+        "before": {
+          "usedHeapBytes": 3184140,
+          "documents": 1,
+          "nodes": 129,
+          "jsEventListeners": 182
+        },
+        "after": {
+          "usedHeapBytes": 3356272,
+          "documents": 1,
+          "nodes": 13,
+          "jsEventListeners": 172
+        },
+        "retainedDeltaBytes": 172132,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          178.59999999403954, 73.7000000178814, 83.80000001192093,
+          76.09999999403954, 78.90000000596046, 68, 89.19999998807907, 85.5
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 26.700000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1,
+            "twoFramesMs": 23.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 0.8999999761581421,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 20.799999982118607
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.100000023841858
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 21.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 21.80000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.900000005960464
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 131.09999999403954,
+        "warm": {
+          "samples": 7,
+          "p50": 79,
+          "p95": 98.2000000178814
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.6000000238418579,
+        "p95": 1.199999988079071
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 22.900000005960464,
+        "p95": 25.30000001192093
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2457948,
+          "documents": 1,
+          "nodes": 112,
+          "jsEventListeners": 38
+        },
+        "before": {
+          "usedHeapBytes": 2420256,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "after": {
+          "usedHeapBytes": 2515564,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "retainedDeltaBytes": 95308,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          131.09999999403954, 73.7999999821186, 79, 74.59999999403954,
+          77.2000000178814, 86.2000000178814, 98.2000000178814, 85.2999999821186
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1,
+            "twoFramesMs": 22.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 22.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 18.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 22.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.400000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 22.100000023841858
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5,
+            "twoFramesMs": 21.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 20.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 21.200000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1,
+            "twoFramesMs": 22.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 23.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 22.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.599999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 25.30000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 162,
+        "warm": {
+          "samples": 7,
+          "p50": 81.59999999403954,
+          "p95": 92.5
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.7000000178813934,
+        "p95": 1.4000000059604645
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.5,
+        "p95": 26.400000005960464
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2644636,
+          "documents": 1,
+          "nodes": 111,
+          "jsEventListeners": 39
+        },
+        "before": {
+          "usedHeapBytes": 2585632,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "after": {
+          "usedHeapBytes": 2709524,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "retainedDeltaBytes": 123892,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          162, 85, 72.5, 68.7000000178814, 77.2000000178814, 81.69999998807907,
+          92.5, 81.59999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 26.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 27.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 23.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 22.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 21.700000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 19.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.399999976158142,
+            "twoFramesMs": 22.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.7000000178813934,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25.100000023841858
+          },
+          {
+            "query": "group",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.30000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25.600000023841858
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "group",
+            "commitMs": 0.8999999761581421,
+            "twoFramesMs": 20.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25
+          }
+        ]
+      }
+    },
+    {
+      "variant": "native",
+      "size": 1000,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 158.2999999821186,
+        "warm": {
+          "samples": 7,
+          "p50": 91.80000001192093,
+          "p95": 125.7000000178814
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.300000011920929,
+        "p95": 3.7999999821186066
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.599999994039536,
+        "p95": 40
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2429324,
+          "documents": 1,
+          "nodes": 2071,
+          "jsEventListeners": 36
+        },
+        "before": {
+          "usedHeapBytes": 2365852,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "after": {
+          "usedHeapBytes": 2446156,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "retainedDeltaBytes": 80304,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          158.2999999821186, 84.80000001192093, 91.80000001192093,
+          83.7999999821186, 124.7999999821186, 125.7000000178814,
+          88.19999998807907, 103.30000001192093
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 2.7999999821186066,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.5,
+            "twoFramesMs": 18.799999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 2.4000000059604645,
+            "twoFramesMs": 22.700000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.399999976158142,
+            "twoFramesMs": 25.299999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 2,
+            "twoFramesMs": 41.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 21.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 23.599999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 30.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.9000000059604645,
+            "twoFramesMs": 18
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.100000023841858,
+            "twoFramesMs": 21.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.7000000178813934,
+            "twoFramesMs": 40
+          },
+          {
+            "query": "group",
+            "commitMs": 3.7999999821186066,
+            "twoFramesMs": 18.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 20.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 32.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2,
+            "twoFramesMs": 30.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 27.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 19.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 25.400000005960464
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 1000,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 251.09999999403954,
+        "warm": {
+          "samples": 7,
+          "p50": 101.2999999821186,
+          "p95": 122
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 4.699999988079071,
+        "p95": 6.5
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.600000023841858,
+        "p95": 43.099999994039536
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 3931900,
+          "documents": 1,
+          "nodes": 4135,
+          "jsEventListeners": 193
+        },
+        "before": {
+          "usedHeapBytes": 3600696,
+          "documents": 1,
+          "nodes": 2082,
+          "jsEventListeners": 182
+        },
+        "after": {
+          "usedHeapBytes": 3573840,
+          "documents": 1,
+          "nodes": 13,
+          "jsEventListeners": 172
+        },
+        "retainedDeltaBytes": -26856,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          251.09999999403954, 122, 101.2999999821186, 114.7999999821186, 120.5,
+          86.30000001192093, 96.59999999403954, 92.69999998807907
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 13.300000011920929
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.5,
+            "twoFramesMs": 22.399999976158142
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 5.799999982118607,
+            "twoFramesMs": 43.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 5.700000017881393,
+            "twoFramesMs": 17.900000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 3.100000023841858,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.200000017881393,
+            "twoFramesMs": 27.700000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 6.5,
+            "twoFramesMs": 21.30000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 20.5
+          },
+          {
+            "query": "",
+            "commitMs": 5.700000017881393,
+            "twoFramesMs": 39.60000002384186
+          },
+          {
+            "query": "group",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 20.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.5999999940395355,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.300000011920929,
+            "twoFramesMs": 36.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.799999982118607,
+            "twoFramesMs": 28.799999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 27.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 4.800000011920929,
+            "twoFramesMs": 18.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.2000000178813934,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.0999999940395355,
+            "twoFramesMs": 39.29999998211861
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.699999988079071,
+            "twoFramesMs": 25.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.7000000178813934,
+            "twoFramesMs": 23.600000023841858
+          },
+          {
+            "query": "",
+            "commitMs": 6.200000017881393,
+            "twoFramesMs": 43.20000001788139
+          },
+          {
+            "query": "group",
+            "commitMs": 4.700000017881393,
+            "twoFramesMs": 18.600000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.5,
+            "twoFramesMs": 26.299999982118607
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 1000,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 1364,
+        "warm": {
+          "samples": 7,
+          "p50": 103.7000000178814,
+          "p95": 154.10000002384186
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 4.4000000059604645,
+        "p95": 10.099999994039536
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.900000005960464,
+        "p95": 46.30000001192093
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2965236,
+          "documents": 1,
+          "nodes": 2066,
+          "jsEventListeners": 38
+        },
+        "before": {
+          "usedHeapBytes": 2619156,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "after": {
+          "usedHeapBytes": 2698356,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "retainedDeltaBytes": 79200,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          1364, 154.10000002384186, 80.5, 108.19999998807907, 103,
+          103.7000000178814, 110.89999997615814, 93.80000001192093
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 5.699999988079071,
+            "twoFramesMs": 25.299999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5,
+            "twoFramesMs": 24.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 11.400000005960464,
+            "twoFramesMs": 46.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 5.700000017881393,
+            "twoFramesMs": 13.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.300000011920929,
+            "twoFramesMs": 21
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.700000017881393,
+            "twoFramesMs": 37.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.7999999821186066,
+            "twoFramesMs": 19.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.600000023841858,
+            "twoFramesMs": 18.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 9,
+            "twoFramesMs": 46.29999998211861
+          },
+          {
+            "query": "group",
+            "commitMs": 4.600000023841858,
+            "twoFramesMs": 10.600000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 19.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.5999999940395355,
+            "twoFramesMs": 35.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5,
+            "twoFramesMs": 16.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 20.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 27.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 6.5,
+            "twoFramesMs": 17.600000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.399999976158142,
+            "twoFramesMs": 24.899999976158142
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.800000011920929,
+            "twoFramesMs": 39
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.800000011920929,
+            "twoFramesMs": 28.700000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 10.099999994039536,
+            "twoFramesMs": 47.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 10.200000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 3.2000000178813934,
+            "twoFramesMs": 16.599999994039536
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 1000,
+      "round": 1,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 205.90000000596046,
+        "warm": {
+          "samples": 7,
+          "p50": 110.59999999403954,
+          "p95": 150.59999999403954
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 4.5,
+        "p95": 7.899999976158142
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.69999998807907,
+        "p95": 42.5
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 3206884,
+          "documents": 1,
+          "nodes": 2065,
+          "jsEventListeners": 39
+        },
+        "before": {
+          "usedHeapBytes": 2810800,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "after": {
+          "usedHeapBytes": 2915332,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "retainedDeltaBytes": 104532,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [
+          205.90000000596046, 108, 90.80000001192093, 94, 116.90000000596046,
+          120.09999999403954, 150.59999999403954, 110.59999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 4.5999999940395355,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.5999999940395355,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 6.299999982118607,
+            "twoFramesMs": 41.79999998211861
+          },
+          {
+            "query": "group",
+            "commitMs": 6.0999999940395355,
+            "twoFramesMs": 16.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.2999999821186066,
+            "twoFramesMs": 25.299999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 6.5,
+            "twoFramesMs": 18.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 26.700000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 8.099999994039536,
+            "twoFramesMs": 41.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 5.699999988079071,
+            "twoFramesMs": 21.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 3.600000023841858,
+            "twoFramesMs": 23.700000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 4.699999988079071,
+            "twoFramesMs": 25.399999976158142
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.699999988079071,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.300000011920929,
+            "twoFramesMs": 20.700000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 7.5,
+            "twoFramesMs": 42.5
+          },
+          {
+            "query": "group",
+            "commitMs": 4.699999988079071,
+            "twoFramesMs": 19.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 22.30000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.899999976158142,
+            "twoFramesMs": 64.2999999821186
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5,
+            "twoFramesMs": 16.799999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 6.5999999940395355,
+            "twoFramesMs": 41.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 4.5,
+            "twoFramesMs": 18.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.600000023841858,
+            "twoFramesMs": 23.900000005960464
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 23,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 172.80000001192093,
+        "warm": {
+          "samples": 7,
+          "p50": 79,
+          "p95": 116
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.800000011920929,
+        "p95": 1.199999988079071
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.099999994039536,
+        "p95": 26.899999976158142
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          172.80000001192093, 116, 84.59999999403954, 71.2999999821186,
+          85.90000000596046, 73.7999999821186, 79, 65.80000001192093
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 22.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 23.399999976158142
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 21.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 26.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 26.899999976158142
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 25.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 21.700000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 22.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 1,
+            "twoFramesMs": 21.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 20
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 25.700000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 26.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 26.19999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 24.099999994039536
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 23,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 145.2000000178814,
+        "warm": {
+          "samples": 7,
+          "p50": 76.69999998807907,
+          "p95": 81
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.5999999940395355,
+        "p95": 1.300000011920929
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.900000005960464,
+        "p95": 26.900000005960464
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          145.2000000178814, 73.90000000596046, 68.5, 55.5, 81,
+          76.69999998807907, 78.09999999403954, 80.40000000596046
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.5,
+            "twoFramesMs": 27.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.4000000059604645,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.8999999761581421,
+            "twoFramesMs": 24.899999976158142
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.5,
+            "twoFramesMs": 22.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 22.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 21.30000001192093
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 23,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 137.10000002384186,
+        "warm": {
+          "samples": 7,
+          "p50": 72.59999999403954,
+          "p95": 84.40000000596046
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.9000000059604645,
+        "p95": 1.5999999940395355
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 25.399999976158142,
+        "p95": 27.099999994039536
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          137.10000002384186, 80.90000000596046, 84.40000000596046,
+          64.40000000596046, 72.59999999403954, 62.20000001788139,
+          52.30000001192093, 82.40000000596046
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 30.100000023841858
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 21.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 21.799999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.799999982118607
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.399999976158142,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "group",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 22.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 19.80000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 21
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 25.799999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 25.399999976158142
+          },
+          {
+            "query": "group",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 26.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 27.099999994039536
+          }
+        ]
+      }
+    },
+    {
+      "variant": "native",
+      "size": 23,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 132.2000000178814,
+        "warm": {
+          "samples": 7,
+          "p50": 77.09999999403954,
+          "p95": 94.7999999821186
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.29999998211860657,
+        "p95": 0.5
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.80000001192093,
+        "p95": 26.80000001192093
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          132.2000000178814, 81.19999998807907, 77.09999999403954,
+          94.7999999821186, 79.89999997615814, 50.60000002384186,
+          53.39999997615814, 68.40000000596046
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 27.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 24.100000023841858
+          },
+          {
+            "query": "",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 20.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 22.100000023841858
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 22.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 25.299999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 22.700000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 26.299999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 21.799999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.3999999761581421,
+            "twoFramesMs": 18.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "group",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 25.799999982118607
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 1000,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 250.2999999821186,
+        "warm": {
+          "samples": 7,
+          "p50": 108.09999999403954,
+          "p95": 129.7000000178814
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 3.699999988079071,
+        "p95": 7.0999999940395355
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.30000001192093,
+        "p95": 41
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          250.2999999821186, 108.09999999403954, 129.7000000178814,
+          93.59999999403954, 121.09999999403954, 88.5, 84.59999999403954,
+          114.09999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 3.800000011920929,
+            "twoFramesMs": 19.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.600000023841858,
+            "twoFramesMs": 25.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 3.5999999940395355,
+            "twoFramesMs": 27.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 2.199999988079071,
+            "twoFramesMs": 18.19999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.800000011920929,
+            "twoFramesMs": 24.30000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.0999999940395355,
+            "twoFramesMs": 38.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 19.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 26.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 5.9000000059604645,
+            "twoFramesMs": 44.20000001788139
+          },
+          {
+            "query": "group",
+            "commitMs": 5.9000000059604645,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.5,
+            "twoFramesMs": 17.80000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.5,
+            "twoFramesMs": 40.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5999999940395355,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 6,
+            "twoFramesMs": 41
+          },
+          {
+            "query": "group",
+            "commitMs": 6,
+            "twoFramesMs": 21.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.5,
+            "twoFramesMs": 26.69999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.9000000059604645,
+            "twoFramesMs": 36.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.699999988079071,
+            "twoFramesMs": 21
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5,
+            "twoFramesMs": 22.700000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 4.5999999940395355,
+            "twoFramesMs": 40.80000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 5.399999976158142,
+            "twoFramesMs": 18.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.7000000178813934,
+            "twoFramesMs": 25.099999994039536
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 1000,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 152.2000000178814,
+        "warm": {
+          "samples": 7,
+          "p50": 105.7999999821186,
+          "p95": 131.59999999403954
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 4.5,
+        "p95": 8.699999988079071
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.799999982118607,
+        "p95": 41.79999998211861
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          152.2000000178814, 96.40000000596046, 131.59999999403954,
+          99.90000000596046, 103.90000000596046, 113.60000002384186,
+          127.40000000596046, 105.7999999821186
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 8.699999988079071,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.299999982118607,
+            "twoFramesMs": 22.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 9.899999976158142,
+            "twoFramesMs": 41.79999998211861
+          },
+          {
+            "query": "group",
+            "commitMs": 6.4000000059604645,
+            "twoFramesMs": 21.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.5,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.199999988079071,
+            "twoFramesMs": 36.79999998211861
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.4000000059604645,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 23.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 8.099999994039536,
+            "twoFramesMs": 40.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 6.399999976158142,
+            "twoFramesMs": 14.699999988079071
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.2000000178813934,
+            "twoFramesMs": 30.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.9000000059604645,
+            "twoFramesMs": 38.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.300000011920929,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 23.700000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 8.400000005960464,
+            "twoFramesMs": 41.80000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 4.5,
+            "twoFramesMs": 20.600000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 21.400000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.399999976158142,
+            "twoFramesMs": 36.79999998211861
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.699999988079071,
+            "twoFramesMs": 23.799999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 21.899999976158142
+          },
+          {
+            "query": "",
+            "commitMs": 5.200000017881393,
+            "twoFramesMs": 28.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 3.7999999821186066,
+            "twoFramesMs": 10.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 27.900000005960464
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 1000,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 167.69999998807907,
+        "warm": {
+          "samples": 7,
+          "p50": 100.2999999821186,
+          "p95": 121.19999998807907
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 3.399999976158142,
+        "p95": 7.700000017881393
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.399999976158142,
+        "p95": 42.30000001192093
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          167.69999998807907, 100.2999999821186, 116.90000000596046,
+          121.19999998807907, 106.2999999821186, 91, 88.90000000596046,
+          98.40000000596046
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 3.0999999940395355,
+            "twoFramesMs": 17.799999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "",
+            "commitMs": 4.0999999940395355,
+            "twoFramesMs": 27.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 2.600000023841858,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 25.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.899999976158142,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.5999999940395355,
+            "twoFramesMs": 24.399999976158142
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 4.700000017881393,
+            "twoFramesMs": 28.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 4.700000017881393,
+            "twoFramesMs": 18.30000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2,
+            "twoFramesMs": 23.200000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.700000017881393,
+            "twoFramesMs": 42.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.399999976158142,
+            "twoFramesMs": 21.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 4.5,
+            "twoFramesMs": 17.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 24.30000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.4000000059604645,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 7.299999982118607,
+            "twoFramesMs": 30.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.2999999821186066,
+            "twoFramesMs": 22.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 9,
+            "twoFramesMs": 68.40000000596046
+          },
+          {
+            "query": "group",
+            "commitMs": 6.0999999940395355,
+            "twoFramesMs": 14.800000011920929
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.7999999821186066,
+            "twoFramesMs": 13.799999982118607
+          }
+        ]
+      }
+    },
+    {
+      "variant": "native",
+      "size": 1000,
+      "round": 2,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 182.19999998807907,
+        "warm": {
+          "samples": 7,
+          "p50": 93.59999999403954,
+          "p95": 126.40000000596046
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.5999999940395355,
+        "p95": 3
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.5,
+        "p95": 41.5
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          182.19999998807907, 92.69999998807907, 104.59999999403954,
+          90.59999999403954, 126.40000000596046, 88.80000001192093, 96.5,
+          93.59999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 2.800000011920929,
+            "twoFramesMs": 31.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.7999999821186066,
+            "twoFramesMs": 16.299999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "",
+            "commitMs": 1.600000023841858,
+            "twoFramesMs": 41.5
+          },
+          {
+            "query": "group",
+            "commitMs": 2.7000000178813934,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 14.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 54.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.600000023841858,
+            "twoFramesMs": 25.100000023841858
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 1,
+            "twoFramesMs": 25.799999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 22.899999976158142
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 34.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.800000011920929,
+            "twoFramesMs": 28.700000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 23.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 41
+          },
+          {
+            "query": "group",
+            "commitMs": 3,
+            "twoFramesMs": 16.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1,
+            "twoFramesMs": 23.100000023841858
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.5,
+            "twoFramesMs": 32.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2,
+            "twoFramesMs": 28.799999982118607
+          },
+          {
+            "query": "copy",
+            "commitMs": 1,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "",
+            "commitMs": 1.600000023841858,
+            "twoFramesMs": 39.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 3,
+            "twoFramesMs": 17.900000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 24.5
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 23,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 117.69999998807907,
+        "warm": {
+          "samples": 7,
+          "p50": 78,
+          "p95": 85
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.5,
+        "p95": 1
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.5,
+        "p95": 26.80000001192093
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          117.69999998807907, 82.60000002384186, 66.19999998807907,
+          73.30000001192093, 81.90000000596046, 85, 67.59999999403954, 78
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1,
+            "twoFramesMs": 21.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.200000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 0.5,
+            "twoFramesMs": 22.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.69999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.4000000059604645,
+            "twoFramesMs": 26.5
+          },
+          {
+            "query": "",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.399999976158142
+          },
+          {
+            "query": "group",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.3999999761581421,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.4000000059604645,
+            "twoFramesMs": 27.5
+          },
+          {
+            "query": "",
+            "commitMs": 0.3999999761581421,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 25.19999998807907
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 23,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 166.60000002384186,
+        "warm": {
+          "samples": 7,
+          "p50": 78.7000000178814,
+          "p95": 85.7999999821186
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.800000011920929,
+        "p95": 1.4000000059604645
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.599999994039536,
+        "p95": 26.5
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          166.60000002384186, 72.5, 45.19999998807907, 65.69999998807907,
+          85.7999999821186, 78.7000000178814, 81.80000001192093,
+          81.30000001192093
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 31.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 26.200000017881393
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 25.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 21.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 19.599999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 20
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 22.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 25.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 23.100000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 25.599999994039536
+          }
+        ]
+      }
+    },
+    {
+      "variant": "native",
+      "size": 23,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 124.69999998807907,
+        "warm": {
+          "samples": 7,
+          "p50": 67.09999999403954,
+          "p95": 84.09999999403954
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 0.20000001788139343,
+        "p95": 0.4000000059604645
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24,
+        "p95": 25.700000017881393
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          124.69999998807907, 67.09999999403954, 55.30000001192093,
+          55.400000005960464, 70.59999999403954, 84.09999999403954,
+          66.30000001192093, 82.2999999821186
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.30000001192092896,
+            "twoFramesMs": 24.100000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.4000000059604645,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 20.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.4000000059604645,
+            "twoFramesMs": 21.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 24.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 23.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 25.700000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 23.30000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 0.6000000238418579,
+            "twoFramesMs": 20.700000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.09999999403953552,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 25.700000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.20000001788139343,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 25.69999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.29999998211860657,
+            "twoFramesMs": 23.799999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.19999998807907104,
+            "twoFramesMs": 22.899999976158142
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 23,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 192.39999997615814,
+        "warm": {
+          "samples": 7,
+          "p50": 79.80000001192093,
+          "p95": 87.39999997615814
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1,
+        "p95": 1.5
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.099999994039536,
+        "p95": 25.600000023841858
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          192.39999997615814, 87.39999997615814, 77.19999998807907,
+          80.90000000596046, 80, 79.80000001192093, 66.60000002384186,
+          76.7000000178814
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 27.899999976158142
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 20.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 24.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1,
+            "twoFramesMs": 22.700000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.8999999761581421,
+            "twoFramesMs": 25.299999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.100000023841858,
+            "twoFramesMs": 25.600000023841858
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 22.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 24.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 23.799999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.100000023841858,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 24.299999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 24.299999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 21.799999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 21.700000017881393
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 21.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.5,
+            "twoFramesMs": 20
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 20.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 18
+          },
+          {
+            "query": "group",
+            "commitMs": 0.5,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5,
+            "twoFramesMs": 25.30000001192093
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact",
+      "size": 1000,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 208.59999999403954,
+        "warm": {
+          "samples": 7,
+          "p50": 111.40000000596046,
+          "p95": 158.7999999821186
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 3.7999999821186066,
+        "p95": 9.099999994039536
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 23.69999998807907,
+        "p95": 40.30000001192093
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          208.59999999403954, 111.40000000596046, 117.2000000178814,
+          158.7999999821186, 111.40000000596046, 86.40000000596046, 93,
+          123.40000000596046
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 10,
+            "twoFramesMs": 18.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.7999999821186066,
+            "twoFramesMs": 23.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 8,
+            "twoFramesMs": 40.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 6.200000017881393,
+            "twoFramesMs": 13.800000011920929
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.399999976158142,
+            "twoFramesMs": 30.299999982118607
+          },
+          {
+            "query": "tab",
+            "commitMs": 6,
+            "twoFramesMs": 34.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.9000000059604645,
+            "twoFramesMs": 29.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.199999988079071,
+            "twoFramesMs": 22
+          },
+          {
+            "query": "",
+            "commitMs": 9.099999994039536,
+            "twoFramesMs": 42.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 4.600000023841858,
+            "twoFramesMs": 18.30000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.4000000059604645,
+            "twoFramesMs": 26.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.699999988079071,
+            "twoFramesMs": 38.79999998211861
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.5999999940395355,
+            "twoFramesMs": 17.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.4000000059604645,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 7.699999988079071,
+            "twoFramesMs": 39.79999998211861
+          },
+          {
+            "query": "group",
+            "commitMs": 5.9000000059604645,
+            "twoFramesMs": 21.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.4000000059604645,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.5,
+            "twoFramesMs": 25.099999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.7000000178813934,
+            "twoFramesMs": 18.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 20.599999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 27.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 4.100000023841858,
+            "twoFramesMs": 19.900000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.4000000059604645,
+            "twoFramesMs": 27.5
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact",
+      "size": 1000,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 165.2999999821186,
+        "warm": {
+          "samples": 7,
+          "p50": 104.39999997615814,
+          "p95": 127.59999999403954
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 3.800000011920929,
+        "p95": 9.400000005960464
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.599999994039536,
+        "p95": 46.400000005960464
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          165.2999999821186, 127.59999999403954, 126.5, 104.39999997615814,
+          87.69999998807907, 79.2999999821186, 112.69999998807907,
+          89.19999998807907
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 5.5,
+            "twoFramesMs": 22
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 6.0999999940395355,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.2999999821186066,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 5.800000011920929,
+            "twoFramesMs": 40
+          },
+          {
+            "query": "group",
+            "commitMs": 3.800000011920929,
+            "twoFramesMs": 17.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.699999988079071,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 6.5,
+            "twoFramesMs": 38.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "",
+            "commitMs": 8.5,
+            "twoFramesMs": 46.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 11,
+            "twoFramesMs": 22.899999976158142
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 5,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 9.400000005960464,
+            "twoFramesMs": 62.70000001788139
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.4000000059604645,
+            "twoFramesMs": 18.599999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 25.700000017881393
+          },
+          {
+            "query": "",
+            "commitMs": 3.800000011920929,
+            "twoFramesMs": 27.5
+          },
+          {
+            "query": "group",
+            "commitMs": 4,
+            "twoFramesMs": 13.700000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 25.69999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 3,
+            "twoFramesMs": 28.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.600000023841858,
+            "twoFramesMs": 24.30000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 3.699999988079071,
+            "twoFramesMs": 26.299999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 7.0999999940395355,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.9000000059604645,
+            "twoFramesMs": 20
+          }
+        ]
+      }
+    },
+    {
+      "variant": "native",
+      "size": 1000,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 152.7999999821186,
+        "warm": {
+          "samples": 7,
+          "p50": 113.40000000596046,
+          "p95": 130.19999998807907
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.5,
+        "p95": 3
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.400000005960464,
+        "p95": 39.599999994039536
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          152.7999999821186, 113.7999999821186, 79.5, 114.69999998807907,
+          92.19999998807907, 113.40000000596046, 99.7000000178814,
+          130.19999998807907
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 2.9000000059604645,
+            "twoFramesMs": 23.600000023841858
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 22.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 39.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 5.699999988079071,
+            "twoFramesMs": 27.69999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 15
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.100000023841858,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 28.399999976158142
+          },
+          {
+            "query": "",
+            "commitMs": 1,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 2.4000000059604645,
+            "twoFramesMs": 18.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.8999999761581421,
+            "twoFramesMs": 26
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.69999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.5,
+            "twoFramesMs": 27.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 43.19999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 3,
+            "twoFramesMs": 22.30000001192093
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 18.19999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 30.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.0999999940395355,
+            "twoFramesMs": 18
+          },
+          {
+            "query": "copy",
+            "commitMs": 1,
+            "twoFramesMs": 23.5
+          },
+          {
+            "query": "",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 36
+          },
+          {
+            "query": "group",
+            "commitMs": 2.699999988079071,
+            "twoFramesMs": 13.699999988079071
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 18.200000017881393
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react",
+      "size": 1000,
+      "round": 3,
+      "compatibilityOnly": false,
+      "readyMs": {
+        "first": 194.59999999403954,
+        "warm": {
+          "samples": 7,
+          "p50": 113.90000000596046,
+          "p95": 122.80000001192093
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 3,
+        "p95": 5.699999988079071
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.19999998807907,
+        "p95": 41.099999994039536
+      },
+      "behavior": {
+        "rows": 1000,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "raw": {
+        "navigation": [
+          194.59999999403954, 122.80000001192093, 113.90000000596046, 98,
+          120.19999998807907, 93.80000001192093, 117.19999998807907,
+          106.09999999403954
+        ],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 4.100000023841858,
+            "twoFramesMs": 20.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.9000000059604645,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 22.399999976158142
+          },
+          {
+            "query": "",
+            "commitMs": 5.699999988079071,
+            "twoFramesMs": 41.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 3.5,
+            "twoFramesMs": 15.599999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 5,
+            "twoFramesMs": 26.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.2999999821186066,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 5.4000000059604645,
+            "twoFramesMs": 41.5
+          },
+          {
+            "query": "group",
+            "commitMs": 4.200000017881393,
+            "twoFramesMs": 16.900000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 2.800000011920929,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "tab",
+            "commitMs": 7.9000000059604645,
+            "twoFramesMs": 40.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.0999999940395355,
+            "twoFramesMs": 15.5
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 24
+          },
+          {
+            "query": "",
+            "commitMs": 3,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 3,
+            "twoFramesMs": 18.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "tab",
+            "commitMs": 5.0999999940395355,
+            "twoFramesMs": 25.599999994039536
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 4.799999982118607,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 23.19999998807907
+          },
+          {
+            "query": "",
+            "commitMs": 3.199999988079071,
+            "twoFramesMs": 27.5
+          },
+          {
+            "query": "group",
+            "commitMs": 2.2000000178813934,
+            "twoFramesMs": 19.100000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 25.399999976158142
+          }
+        ]
+      }
+    },
+    {
+      "variant": "react-radix",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": true,
+      "readyMs": {
+        "first": 204.30000001192093,
+        "warm": {
+          "samples": 0
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.0999999940395355,
+        "p95": 3.7000000178813934
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.5,
+        "p95": 26.599999994039536
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 3652520,
+          "documents": 1,
+          "nodes": 208,
+          "jsEventListeners": 324
+        },
+        "before": {
+          "usedHeapBytes": 3621300,
+          "documents": 1,
+          "nodes": 118,
+          "jsEventListeners": 319
+        },
+        "after": {
+          "usedHeapBytes": 4039920,
+          "documents": 1,
+          "nodes": 13,
+          "jsEventListeners": 315
+        },
+        "retainedDeltaBytes": 418620,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [204.30000001192093],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 18.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.7999999821186066,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.7000000178813934,
+            "twoFramesMs": 25.100000023841858
+          },
+          {
+            "query": "",
+            "commitMs": 1.7000000178813934,
+            "twoFramesMs": 23.80000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 22.299999982118607
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 23.700000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 1.699999988079071,
+            "twoFramesMs": 24.299999982118607
+          },
+          {
+            "query": "group",
+            "commitMs": 1,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 26.599999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 26.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 26.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 3.7000000178813934,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "",
+            "commitMs": 2.2999999821186066,
+            "twoFramesMs": 24.69999998807907
+          },
+          {
+            "query": "group",
+            "commitMs": 1.2000000178813934,
+            "twoFramesMs": 22.200000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.899999976158142
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 24.100000023841858
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 4.0999999940395355,
+            "twoFramesMs": 22.30000001192093
+          },
+          {
+            "query": "group",
+            "commitMs": 3.4000000059604645,
+            "twoFramesMs": 26.100000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.5
+          }
+        ]
+      }
+    },
+    {
+      "variant": "preact-radix",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": true,
+      "readyMs": {
+        "first": 127,
+        "warm": {
+          "samples": 0
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.0999999940395355,
+        "p95": 5.299999982118607
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.099999994039536,
+        "p95": 25.5
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2716524,
+          "documents": 1,
+          "nodes": 103,
+          "jsEventListeners": 33
+        },
+        "before": {
+          "usedHeapBytes": 2675992,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "after": {
+          "usedHeapBytes": 2953604,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 27
+        },
+        "retainedDeltaBytes": 277612,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 4
+        }
+      },
+      "raw": {
+        "navigation": [127],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 7.699999988079071,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 23.900000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 24.700000017881393
+          },
+          {
+            "query": "group",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.2000000178813934,
+            "twoFramesMs": 24.700000017881393
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 1.300000011920929,
+            "twoFramesMs": 23.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 3.800000011920929,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1,
+            "twoFramesMs": 22.69999998807907
+          },
+          {
+            "query": "tab",
+            "commitMs": 1.199999988079071,
+            "twoFramesMs": 22.400000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 5.299999982118607,
+            "twoFramesMs": 22.400000005960464
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.800000011920929,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "",
+            "commitMs": 3.5,
+            "twoFramesMs": 25.5
+          },
+          {
+            "query": "group",
+            "commitMs": 3.199999988079071,
+            "twoFramesMs": 25.19999998807907
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 23.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 24.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2.699999988079071,
+            "twoFramesMs": 21.69999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.5,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "",
+            "commitMs": 0.7000000178813934,
+            "twoFramesMs": 24.099999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 23.900000005960464
+          }
+        ]
+      }
+    },
+    {
+      "variant": "redact-radix",
+      "size": 23,
+      "round": 1,
+      "compatibilityOnly": true,
+      "readyMs": {
+        "first": 149.69999998807907,
+        "warm": {
+          "samples": 0
+        }
+      },
+      "inputCommitMs": {
+        "samples": 24,
+        "p50": 1.0999999940395355,
+        "p95": 3.399999976158142
+      },
+      "inputTwoFramesMs": {
+        "samples": 24,
+        "p50": 24.400000005960464,
+        "p95": 26.80000001192093
+      },
+      "behavior": {
+        "rows": 23,
+        "settingsSave": true,
+        "validation": true,
+        "search": true,
+        "shortcut": true,
+        "dialogFocusTrap": true,
+        "escapeAndRestore": true
+      },
+      "lifecycle": {
+        "cycles": 20,
+        "primingCycles": 5,
+        "mounted": {
+          "usedHeapBytes": 2935036,
+          "documents": 1,
+          "nodes": 102,
+          "jsEventListeners": 34
+        },
+        "before": {
+          "usedHeapBytes": 2864440,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "after": {
+          "usedHeapBytes": 3227220,
+          "documents": 1,
+          "nodes": 12,
+          "jsEventListeners": 28
+        },
+        "retainedDeltaBytes": 362780,
+        "lifecycle": {
+          "mounts": 26,
+          "cleanups": 26
+        },
+        "rapidEscape": {
+          "attempts": 20,
+          "missed": 0
+        }
+      },
+      "raw": {
+        "navigation": [149.69999998807907],
+        "interactions": [
+          {
+            "query": "tab",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 30.900000005960464
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 1.800000011920929,
+            "twoFramesMs": 22.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 2.2999999821186066,
+            "twoFramesMs": 24.799999982118607
+          },
+          {
+            "query": "",
+            "commitMs": 1.5,
+            "twoFramesMs": 23
+          },
+          {
+            "query": "group",
+            "commitMs": 1.9000000059604645,
+            "twoFramesMs": 23.600000023841858
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 1,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "tab",
+            "commitMs": 3.7999999821186066,
+            "twoFramesMs": 24.19999998807907
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 2,
+            "twoFramesMs": 26.099999994039536
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 25.30000001192093
+          },
+          {
+            "query": "",
+            "commitMs": 1.0999999940395355,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "group",
+            "commitMs": 2.7000000178813934,
+            "twoFramesMs": 24.400000005960464
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.5999999940395355,
+            "twoFramesMs": 23.30000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 21.299999982118607
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 3.399999976158142,
+            "twoFramesMs": 20.19999998807907
+          },
+          {
+            "query": "copy",
+            "commitMs": 1,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 0.7999999821186066,
+            "twoFramesMs": 24.599999994039536
+          },
+          {
+            "query": "group",
+            "commitMs": 2.5,
+            "twoFramesMs": 23.700000017881393
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 26.80000001192093
+          },
+          {
+            "query": "tab",
+            "commitMs": 1,
+            "twoFramesMs": 25
+          },
+          {
+            "query": "screenshot",
+            "commitMs": 0.9000000059604645,
+            "twoFramesMs": 24.80000001192093
+          },
+          {
+            "query": "copy",
+            "commitMs": 0.699999988079071,
+            "twoFramesMs": 25.900000005960464
+          },
+          {
+            "query": "",
+            "commitMs": 1.5,
+            "twoFramesMs": 24.5
+          },
+          {
+            "query": "group",
+            "commitMs": 1.5999999940395355,
+            "twoFramesMs": 22.099999994039536
+          },
+          {
+            "query": "zzzz",
+            "commitMs": 0.800000011920929,
+            "twoFramesMs": 24.099999994039536
+          }
+        ]
+      }
+    }
+  ]
+}

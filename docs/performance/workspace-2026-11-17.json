@@ -1,0 +1,110 @@
+{
+  "baseline": {
+    "measuredAt": "2026-11-17T12:36:15.845Z",
+    "node": "v26.13.1",
+    "browser": "153.0.8010.12",
+    "platform": "linux",
+    "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+    "extension": "/home/dovie/repos/dovies-browser-mods/dist",
+    "samples": 15,
+    "browserLaunchAndWorkerMs": 1015.933819,
+    "popupMs": {
+      "first": 170.47932000000014,
+      "warmP50": 82.91770300000007,
+      "warmP95": 101.67188199999964
+    },
+    "mockCopyLinksMs": {
+      "500": {
+        "samples": 25,
+        "p50": 1.0051229999999123,
+        "p95": 2.5524960000002466
+      },
+      "1000": {
+        "samples": 25,
+        "p50": 1.7432950000002165,
+        "p95": 2.4898440000001756
+      }
+    }
+  },
+  "initialConcurrentRun": {
+    "measuredAt": "2026-11-17T12:48:44.286Z",
+    "node": "v26.13.1",
+    "browser": "153.0.8010.12",
+    "platform": "linux",
+    "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+    "extension": "/home/dovie/repos/dovies-browser-mods/dist",
+    "samples": 15,
+    "browserLaunchAndWorkerMs": 464.26259500000003,
+    "popupMs": {
+      "first": 236.63514300000008,
+      "warmP50": 95.90945199999987,
+      "warmP95": 115.31509499999993
+    },
+    "mockCopyLinksMs": {
+      "500": {
+        "samples": 25,
+        "p50": 1.8036729999998897,
+        "p95": 4.322360000000117
+      },
+      "1000": {
+        "samples": 25,
+        "p50": 2.414640999999847,
+        "p95": 4.170364000000063
+      }
+    }
+  },
+  "isolatedRun": {
+    "measuredAt": "2026-11-17T12:53:18.417Z",
+    "node": "v26.13.1",
+    "browser": "153.0.8010.12",
+    "platform": "linux",
+    "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+    "extension": "/home/dovie/repos/dovies-browser-mods/dist",
+    "samples": 15,
+    "browserLaunchAndWorkerMs": 527.575949,
+    "popupMs": {
+      "first": 152.21130399999993,
+      "warmP50": 80.5216989999999,
+      "warmP95": 99.25892099999965
+    },
+    "mockCopyLinksMs": {
+      "500": {
+        "samples": 25,
+        "p50": 1.2568340000002536,
+        "p95": 7.721950000000106
+      },
+      "1000": {
+        "samples": 25,
+        "p50": 1.895578999999998,
+        "p95": 2.845513999999639
+      }
+    }
+  },
+  "finalRun": {
+    "measuredAt": "2026-11-17T12:55:27.803Z",
+    "node": "v26.13.1",
+    "browser": "153.0.8010.12",
+    "platform": "linux",
+    "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+    "extension": "/home/dovie/repos/dovies-browser-mods/dist",
+    "samples": 15,
+    "browserLaunchAndWorkerMs": 463.522204,
+    "popupMs": {
+      "first": 166.17212199999994,
+      "warmP50": 83.62449199999992,
+      "warmP95": 116.88174900000013
+    },
+    "mockCopyLinksMs": {
+      "500": {
+        "samples": 25,
+        "p50": 1.6663000000003194,
+        "p95": 3.9466489999999794
+      },
+      "1000": {
+        "samples": 25,
+        "p50": 2.9360639999999876,
+        "p95": 6.225129999999808
+      }
+    }
+  }
+}

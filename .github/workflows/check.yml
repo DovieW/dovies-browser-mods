@@ -13,3 +13,12 @@ jobs:
       - run: npm run verify
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser:packaged
+      - run: mkdir -p test-results && npm run test:performance
+        env:
+          MODS_BENCH_OUTPUT: test-results/performance.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: performance
+          path: test-results/performance.json
+          if-no-files-found: ignore

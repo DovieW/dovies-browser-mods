@@ -1,0 +1,27 @@
+{
+  "measuredAt": "2026-11-16T12:39:28.301Z",
+  "node": "v26.13.1",
+  "browser": "153.0.8010.12",
+  "platform": "linux",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+  "extension": "3bf1b0a",
+  "samples": 15,
+  "browserLaunchAndWorkerMs": 399.22195000000005,
+  "popupMs": {
+    "first": 182.85159399999986,
+    "warmP50": 87.7909639999998,
+    "warmP95": 110.47881699999994
+  },
+  "mockCopyLinksMs": {
+    "500": {
+      "p50": 1.4764279999999417,
+      "p95": 3.839426000000003,
+      "samples": 25
+    },
+    "1000": {
+      "p50": 2.1220180000000255,
+      "p95": 3.317746999999599,
+      "samples": 25
+    }
+  }
+}

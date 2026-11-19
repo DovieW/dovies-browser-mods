@@ -1,0 +1,27 @@
+{
+  "measuredAt": "2026-11-16T12:39:31.923Z",
+  "node": "v26.13.1",
+  "browser": "153.0.8010.12",
+  "platform": "linux",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285H",
+  "extension": "architecture-refactor",
+  "samples": 15,
+  "browserLaunchAndWorkerMs": 449.779862,
+  "popupMs": {
+    "first": 153.38835500000005,
+    "warmP50": 87.6028669999996,
+    "warmP95": 112.2692750000001
+  },
+  "mockCopyLinksMs": {
+    "500": {
+      "p50": 1.6076829999997244,
+      "p95": 3.2966710000000603,
+      "samples": 25
+    },
+    "1000": {
+      "p50": 2.0876470000002882,
+      "p95": 3.2135520000001634,
+      "samples": 25
+    }
+  }
+}

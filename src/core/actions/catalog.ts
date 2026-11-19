@@ -1,75 +1,79 @@
 export const commands = {
+  "open-palette": { description: "Open Browser Mods command palette" },
   "duplicate-tab": {
-    "suggested_key": "Alt+Shift+D",
-    "description": "Duplicate tab(s)"
+    suggested_key: "Alt+Shift+D",
+    description: "Duplicate tab(s)",
   },
   "discard-tabs": {
-    "description": "Unload highlighted tab(s), keeping them open"
+    description: "Unload highlighted tab(s), keeping them open",
   },
   "pin-tab": {
-    "suggested_key": "Alt+Shift+P",
-    "description": "Pin tab(s)"
+    suggested_key: "Alt+Shift+P",
+    description: "Pin tab(s)",
   },
   "go-incognito": {
-    "suggested_key": "Alt+Shift+N",
-    "description": "Open the current tab(s) in incognito"
+    suggested_key: "Alt+Shift+N",
+    description: "Open the current tab(s) in incognito",
   },
   "open-tab-near": {
-    "description": "Open tab near current and in same group"
+    description: "Open tab near current and in same group",
   },
   "add-tab-to-current-group": {
-    "description": "Open tab at the end of the current group"
+    description: "Open tab at the end of the current group",
   },
   "open-tab-at-end": {
-    "description": "Open tab at the end of all tabs"
+    description: "Open tab at the end of all tabs",
   },
   "move-tabs-left": {
-    "description": "Move highlighted tab(s) left"
+    description: "Move highlighted tab(s) left",
   },
   "move-tabs-right": {
-    "description": "Move highlighted tab(s) right"
+    description: "Move highlighted tab(s) right",
   },
   "move-tabs-to-front": {
-    "description": "Move highlighted tab(s) to the front"
+    description: "Move highlighted tab(s) to the front",
   },
   "move-tabs-to-back": {
-    "description": "Move highlighted tab(s) to the back"
+    description: "Move highlighted tab(s) to the back",
   },
   "switch-windows": {
-    "description": "Switch between windows"
+    description: "Switch between windows",
   },
   "toggle-collapse-groups": {
-    "description": "Toggle collapse all tab groups"
+    description: "Toggle collapse all tab groups",
   },
   "switch-to-last-tab": {
-    "description": "Switch to the last active tab"
+    description: "Switch to the last active tab",
   },
   "walk-recent-tabs": {
-    "description": "Walk backward through recently used tabs (up to 32)"
+    description: "Walk backward through recently used tabs (up to 32)",
   },
   "walk-recent-tabs-forward": {
-    "description": "Walk forward toward newer tabs in the same recent-tab history"
+    description:
+      "Walk forward toward newer tabs in the same recent-tab history",
   },
   "copy-url": {
-    "description": "Copy highlighted tab URLs to clipboard (one per line)"
+    description: "Copy highlighted tab URLs to clipboard (one per line)",
   },
   "copy-screenshot": {
-    "suggested_key": "Alt+Shift+S",
-    "description": "Copy a screenshot of the visible page to clipboard"
+    suggested_key: "Alt+Shift+S",
+    description: "Copy a screenshot of the visible page to clipboard",
   },
   "move-tabs-to-window": {
-    "description": "Move highlighted tab(s) to different window (cycle)"
+    description: "Move highlighted tab(s) to different window (cycle)",
   },
   "move-all-groups": {
-    "description": "Move all groups to front or back"
+    description: "Move all groups to front or back",
   },
   "go-home": {
-    "description": "Navigate to the root/home of the current site"
+    description: "Navigate to the root/home of the current site",
   },
   "cycle-tab-groups": {
-    "description": "Move highlighted tabs to the next group"
+    description: "Move highlighted tabs to the next group",
   },
   "pause-all-tabs": {
-    "description": "Pause media in all normal browser tabs"
-  }
+    description: "Pause media in all normal browser tabs",
+  },
 } as const;
+
+export type CommandId = keyof typeof commands;

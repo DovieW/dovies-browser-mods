@@ -6,11 +6,11 @@ Keyboard shortcuts for tabs, groups, windows, navigation, and media. Requires Ch
 
 ## Migration build
 
-This repository is being migrated into a unified browser toolkit. The architecture and shared theme are established; other utility extensions have not yet been integrated. Their existing installations remain the working versions.
+This repository is being migrated into a unified browser toolkit. The existing runtime has been extracted into typed modules with tested architecture boundaries and a shared theme; other utility extensions have not yet been integrated. Their existing installations remain the working versions.
 
-Run `npm ci`, `npm run verify`, then load `dist/` as an unpacked extension. Use `npm run test:browser:packaged` for disposable-profile regression checks. The options page displays desired keys and per-device observed history. Chrome assignments still require manual editing. Existing snapshot backups remain available in the popup while the migration proceeds.
+Run `npm ci`, `npm run verify`, then load `dist/` as an unpacked extension. Use `npm run test:browser:packaged` for disposable-profile regression checks. The options page displays desired keys and per-device observed history. Chrome assignments still require manual editing. The Redact workspace provides configurable popup layouts, toolbar/centered palettes, settings search and synced customization. Assign the new Open Browser Mods command palette key in Chrome. Existing snapshot backups and tab behavior controls are linked from options. On a YouTube playlist, the toolbar popup shows its total or a subtotal if more entries need to load. See [UI interaction](docs/ui-interaction.md).
 
-See [architecture](docs/architecture.md) and [migration status](docs/migration.md). The shared standards repository is https://github.com/DovieW/dovies-mods-shared.
+See [architecture](docs/architecture.md), [feature admission and performance policy](docs/feature-admission.md), and [migration status](docs/migration.md). The shared standards repository is https://github.com/DovieW/dovies-mods-shared.
 
 ## Setup
 
@@ -20,29 +20,29 @@ This README describes the current source; see [the changelog](CHANGELOG.md) for 
 
 Four shortcuts are suggested by the extension on installation. Chrome can assign them differently or leave them unset if they conflict with existing shortcuts. Everything else below is a recommendation you must assign yourself. Chrome allows at most four suggested shortcuts in an extension manifest.
 
-| Command | Suggested on installation | Recommended manual binding |
-| --- | --- | --- |
-| Duplicate highlighted tab(s) | Alt+Shift+D | |
-| Unload highlighted tab(s), keeping them open | | Choose an unused key |
-| Open highlighted web tabs in incognito | Alt+Shift+N | |
-| Toggle pin highlighted tab(s) | Alt+Shift+P | |
-| Copy a screenshot of the visible page | Alt+Shift+S | |
-| New tab near current, in the same group | | Ctrl+E |
-| New tab at the end of the current group | | Ctrl+Shift+G |
-| New ungrouped tab at the end of the window | | Ctrl+Shift+E |
-| Move highlighted tabs left / right | | Alt+Shift+Left / Right |
-| Move highlighted tabs to front / back | | Alt+Shift+Up / Down |
-| Switch to last active tab | | Alt+A |
-| Walk backward through recently used tabs | | Choose an unused key |
-| Walk forward toward newer tabs in the same history | | Choose an unused key |
-| Cycle normal windows | | Alt+Shift+A |
-| Move highlighted tabs to the next normal window | | Ctrl+Shift+A |
-| Toggle collapse all groups in this window | | Ctrl+G |
-| Move all groups to front / back | | Alt+Shift+G |
-| Copy highlighted tab URLs, one per line | | Ctrl+Shift+C |
-| Go to the current site's root | | Ctrl+Shift+H |
-| Move highlighted tabs to the next group | | Choose unused keys |
-| Pause media in all normal browser tabs | | Choose an unused key |
+| Command                                            | Suggested on installation | Recommended manual binding |
+| -------------------------------------------------- | ------------------------- | -------------------------- |
+| Duplicate highlighted tab(s)                       | Alt+Shift+D               |                            |
+| Unload highlighted tab(s), keeping them open       |                           | Choose an unused key       |
+| Open highlighted web tabs in incognito             | Alt+Shift+N               |                            |
+| Toggle pin highlighted tab(s)                      | Alt+Shift+P               |                            |
+| Copy a screenshot of the visible page              | Alt+Shift+S               |                            |
+| New tab near current, in the same group            |                           | Ctrl+E                     |
+| New tab at the end of the current group            |                           | Ctrl+Shift+G               |
+| New ungrouped tab at the end of the window         |                           | Ctrl+Shift+E               |
+| Move highlighted tabs left / right                 |                           | Alt+Shift+Left / Right     |
+| Move highlighted tabs to front / back              |                           | Alt+Shift+Up / Down        |
+| Switch to last active tab                          |                           | Alt+A                      |
+| Walk backward through recently used tabs           |                           | Choose an unused key       |
+| Walk forward toward newer tabs in the same history |                           | Choose an unused key       |
+| Cycle normal windows                               |                           | Alt+Shift+A                |
+| Move highlighted tabs to the next normal window    |                           | Ctrl+Shift+A               |
+| Toggle collapse all groups in this window          |                           | Ctrl+G                     |
+| Move all groups to front / back                    |                           | Alt+Shift+G                |
+| Copy highlighted tab URLs, one per line            |                           | Ctrl+Shift+C               |
+| Go to the current site's root                      |                           | Ctrl+Shift+H               |
+| Move highlighted tabs to the next group            |                           | Choose unused keys         |
+| Pause media in all normal browser tabs             |                           | Choose an unused key       |
 
 Chrome and operating-system shortcuts can take precedence. On macOS, use the shortcut settings to choose your preferred Command/Control bindings; the popup displays them separately.
 
@@ -96,13 +96,13 @@ By default, a **1.5-second pause** finishes the switching session. The next Olde
 
 Open the popup and choose **Settings** to experiment. Changes save automatically to Chrome Sync and apply on the next history shortcut. Changing a setting starts a fresh walk on that next shortcut. These settings control Older/Newer recent tab; Last active tab remains a two-tab toggle.
 
-| Setting | Default | Effect |
-| --- | --- | --- |
-| Start a fresh switch after a pause | On | Turn off to continue the same walk until you select another tab/window or use Last active tab. |
-| Pause before a fresh switch | 1.5 seconds | Adjust with the slider or number field, from 0.25 to 10 seconds. |
-| Include tabs from other windows | On | Turn off to walk only tabs in the starting window. Regular and incognito contexts always stay separate. |
-| Wrap around at the ends | Off | Turn on to continue from the opposite end of the same list. |
-| Remember tabs I pass through | Off | Turn on to count every preview as used, reproducing the previous recency behavior. |
+| Setting                            | Default     | Effect                                                                                                  |
+| ---------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------- |
+| Start a fresh switch after a pause | On          | Turn off to continue the same walk until you select another tab/window or use Last active tab.          |
+| Pause before a fresh switch        | 1.5 seconds | Adjust with the slider or number field, from 0.25 to 10 seconds.                                        |
+| Include tabs from other windows    | On          | Turn off to walk only tabs in the starting window. Regular and incognito contexts always stay separate. |
+| Wrap around at the ends            | Off         | Turn on to continue from the opposite end of the same list.                                             |
+| Remember tabs I pass through       | Off         | Turn on to count every preview as used, reproducing the previous recency behavior.                      |
 
 **Restore defaults** resets these five preferences without changing your keys or saved shortcut snapshots. To approximate the previous persistent-walk behavior, turn off the pause and turn on remembering tabs you pass through. Copy links, pinning, and other commands that leave you on the same tab no longer independently reset the walk.
 

@@ -4,30 +4,40 @@
   "version": "0.7.0",
   "scripts": {
     "test": "node --test tests/*.test.cjs",
-    "check": "node --check background.js && node --check popup.js && node --check shortcut-ui.js && node --check offscreen.js && node --check shortcut-memory.js && node --check command-errors.js && node --check tab-settings.js && node --check popup-settings.js",
-    "test:browser": "node tests/browser.cjs && node tests/media-browser.cjs && node tests/clipboard-browser.cjs && node tests/options-browser.cjs",
+    "check": "npm run typecheck && npm run lint && npm run architecture",
+    "test:browser": "node tests/browser.cjs && node tests/media-browser.cjs && node tests/clipboard-browser.cjs && node tests/options-browser.cjs && node tests/workspace-browser.cjs && node tests/launcher-browser.cjs && node tests/playlist-browser.cjs",
     "icons": "node scripts/render-icons.cjs",
     "package": "npm run build && node scripts/package-release.cjs",
     "build": "node --import tsx scripts/build.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
-    "architecture": "depcruise src --config .dependency-cruiser.cjs",
+    "architecture": "depcruise src --config .dependency-cruiser.cjs && node scripts/checks/architecture.mjs",
     "unused": "knip",
-    "verify": "npm run typecheck && npm run lint && npm run architecture && npm run unused && npm test && npm run build",
-    "test:browser:packaged": "npm run build && SHORTCUTS_TEST_EXTENSION=./dist npm run test:browser"
+    "verify": "npm run format:check && npm run typecheck && npm run lint && npm run architecture && npm run unused && npm test && npm run build",
+    "test:browser:packaged": "npm run build && SHORTCUTS_TEST_EXTENSION=./dist npm run test:browser",
+    "format": "prettier --write src scripts tests docs *.json *.mjs *.cjs AGENTS.md README.md .github",
+    "format:check": "prettier --check src scripts tests docs *.json *.mjs *.cjs AGENTS.md README.md .github",
+    "test:performance": "npm run build && node scripts/performance/measure.cjs",
+    "performance:compare": "node scripts/performance/compare.cjs"
   },
   "devDependencies": {
     "@doview/mods-shared": "file:vendor/doview-mods-shared-0.1.0.tgz",
     "@eslint/js": "^10.0.1",
     "@types/chrome": "^0.3.7",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "dependency-cruiser": "^18.7.2",
     "esbuild": "^0.28.2",
     "eslint": "^10.15.0",
     "knip": "^6.45.1",
     "playwright": "^1.63.0",
+    "prettier": "^3.10.1",
     "sharp": "^0.35.5",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.2"
+  },
+  "dependencies": {
+    "@tanstack/redact": "0.3.1"
   }
 }
